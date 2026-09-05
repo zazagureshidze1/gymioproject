@@ -1,0 +1,108 @@
+/* || genera styles */
+body {
+    
+    background-image: url("../images/images/coverphoto.jpg"),
+    url("../images/images/background.jpg");
+    background-size: 400px 400px, cover;
+    background-repeat: no-repeat;    
+    background-position: 50px 0px, 0px 0px;
+}
+.mainContainer {
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+h1 {
+    font-size: 2em;
+    background-color: rgba(65, 65, 147, 0.588);
+    color: rgb(157, 65, 65);
+    padding: 10px;
+    border: 5px solid black;
+    border-radius: 10px;
+    text-align: center;
+    width: 800px;
+    position: relative;
+    left: 200px;
+}
+p {
+    font-size: 20px;
+    background-color: rgba(0, 255, 170, 0.591);
+    color: rgb(88, 14, 32);
+    border: 5px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    width: fit-content;
+}
+/* || main and  menu navigation */
+.menu {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+   
+}
+.menu__list {
+    flex-basis: 750px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    
+}
+.menu__item {
+    flex: 1;
+    padding: 10px;
+    background-color: rgba(0, 255, 213, 0.446);
+    border-radius: 5px;   
+    text-align: center;
+    
+}
+
+.menu__item a {
+    transition: all 0.5s;        
+}
+.youtubesearch{
+    flex-grow: 1;
+}
+.youtubesearch label {
+    background-color: rgb(185, 36, 36); 
+    padding: 10px;   
+}
+main {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+main>p {
+    width:100%;
+}
+.sidebar p {
+    background-color: red;
+    font-size: 20px;
+    color: blue;
+    width: 150px;
+}
+/* || animation*/
+.menu__item:hover a {   
+    font-size: 20px;
+    color: red;
+}
+.sidebar p {
+    animation :sidebaranimation 1s infinite;
+}
+@keyframes sidebaranimation {
+    from {
+        background-color: red;
+        color: blue;
+    }
+    to {
+        background-color: blue;
+        color: red;
+    }
+}

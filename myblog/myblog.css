@@ -1,0 +1,113 @@
+/* || general styles*/
+body {
+   
+    background-image: url("../images/images/coverphoto.jpg"),
+    url("../images/images/iconphoto.jpg");
+    background-repeat: no-repeat, repeat;
+    background-size: 400px 400px, contain;
+    background-position: 150px 50px, 0px;
+}
+.mainContainer {
+    margin:0px auto;
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    height: 300px;
+    width: 300px;
+    transition-duration: 1.5s;
+    transition-property: all;
+}
+h1 {
+    background-color: rgba(36, 148, 148, 0.495);
+    color:rgb(107, 51, 160);
+    text-align: center;
+    padding: 10px;
+    border: 5px solid black;
+    border-radius: 15px;
+    width: 30%;
+    position: relative;  
+    left: 400px; 
+    font-size: 3em;
+
+}
+h2, h3 {
+    background-color: rgba(49, 49, 134, 0.587);
+    font-size: 1.5em;
+    color:aquamarine;
+    text-align: center;
+    padding: 10px;
+    border: 5px solid black;
+    border-radius: 15px;
+    width: fit-content;
+}
+h2 {
+    position: sticky;
+    top: 50px;
+    left:300px;
+}
+p {
+    background-color: rgba(119, 200, 203, 0.606);
+    color: rgb(27, 25, 25);
+    text-align: center;
+    padding: 10px;
+    border: 5px solid black;
+    border-radius: 15px;
+    width: fit-content;
+    font-size: 1.5em;
+    position: relative;
+    left: 250px;
+}
+li {
+    color: rgb(221, 195, 186);
+    font-size: 20px;
+}
+a{
+    font-size: 20px;
+    color: red;
+    transition-duration: 1s;
+    transition-property: all;
+}
+/* || menu and main navigation*/
+main {
+    display: flex;
+    flex-direction: column;
+}
+.menu__list {
+    display:flex;
+    margin: 0px;
+    padding:0px;
+    list-style: none;
+    gap: 50px;
+}
+.menu__item {
+    background-color: cadetblue;
+    flex: 1;
+    justify-content: space-around;
+    padding: 10px;
+    width: fit-content;
+    text-align: center;
+}
+.muscle__list {
+    display: flex;
+    flex-direction: column;
+    list-style: none;   
+    padding: 0px;
+    margin: 0px;   
+    gap: 10px; 
+    align-items: flex-start;
+}
+.muscle__item {
+    background-color: rgb(30, 31, 30);
+}
+div:hover img {
+    width: 60%;
+    height: 450px;
+}
+a:hover {
+    font-size: 30px;
+    color: blue;
+}
