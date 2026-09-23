@@ -22,7 +22,7 @@ console.log(muscleLists[0]);
 
 h1.addEventListener("click", reactOnClick);
 
-function reactOnClick(){
+function reactOnClick(e){
     console.log("h1 element has been clicked");
     h1.innerHTML="my blog";
 }
@@ -32,6 +32,8 @@ function reactOnClick(){
 function addEventListener(eventName, callBackFunction){
     const dacheriliEventi=eventisDacherilsLogika();
     if(dacheriliEventi.type==eventName){
-        callBackFunction(dacheriliEventi);
+        callBackFunction(dacheriliEventi); 
     }
 }
+
+h1.addEventListener("click", reactOnClick);
