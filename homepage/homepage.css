@@ -19,8 +19,8 @@ body {
 }
 h1 {
     font-size: 2.5em;
-    background-color: rgba(65, 65, 147, 0.588);
-    color: rgb(65, 157, 76);
+    background-color: rgba(147, 65, 128, 0.588);
+    color: rgb(65, 93, 157);
     padding: 10px;
     border: 5px solid black;
     border-radius: 10px;
