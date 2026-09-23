@@ -15,20 +15,21 @@
     <body>
         <div class="mainContainer">
             <header>
-                <h1>ჩვენი ბლოგი</h1>
+                <h1 id="h1">ჩვენი ბლოგი</h1>
+                <input type="text" value="cancel" id="cancel"/>
             </header>
             <main>
                 <nav class="menu">
                     <ul class="menu__list">
-                        <li class="menu__item"><a href="../homepage/homepage.html">მთავარი გვერდი</a></li>
-                        <li class="menu__item"><a href="../registration/registration.html">რეგისტრაცია</a></li>
-                        <li class="menu__item"><a href="../contactus/contactus.html">დაგვეკონტაქტეთ</a></li>
-                        <li class="menu__item"><a href="../photovideogallery/photovideogallery.html">ფოტო-ვიდეო გალერეა</a></li>
+                        <li class="menu__item" onclick="reactOnClick1()"><a href="../homepage/homepage.html" target="_blank">მთავარი გვერდი</a></li>
+                        <li class="menu__item"><a href="../registration/registration.html"  target="_blank">რეგისტრაცია</a></li>
+                        <li class="menu__item"><a href="../contactus/contactus.html"  target="_blank">დაგვეკონტაქტეთ</a></li>
+                        <li class="menu__item"><a href="../photovideogallery/photovideogallery.html"  target="_blank">ფოტო-ვიდეო გალერეა</a></li>
                     </ul>
                 </nav>
                 <div class="content">
                     <h2>ვარჯიშების კლასიფიკაცია კუნთების ჯგუფების მიხედვით</h2>
-                    <p>სამიზნე კუნთების მიხედვით ვარჯიშები იყოფა შემდეგ ძირითად ჯგუფებად</p>
+                    <p class="mainParagraph">სამიზნე კუნთების მიხედვით ვარჯიშები იყოფა შემდეგ ძირითად ჯგუფებად</p>
                    
                     <ul class="muscle__list">
                         <li class="muscle__item"><a href="#chest">მკერდის კუნთები</a></li>
@@ -47,6 +48,7 @@
                             
                             <div class="chest">
                                 <h3 id="chest">მკერდის კუნთები</h3>
+                                
                                 <img src="../images/images/benchpress.jpg" alt="benchpress"/>
                                 <p>მკერდი ანატომიურად არის ერთი ორგანო,  პირობითად შეგვიძ₾ია დავყოთ 3 ნაწილად:</p>
                                 <ol>
@@ -227,4 +229,5 @@
             </footer>
         </div>        
     </body>
-</html>
+    <script src="myblog.js"></script>
+</html> 

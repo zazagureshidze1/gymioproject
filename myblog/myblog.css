@@ -7,6 +7,10 @@ body {
     background-size: 400px 400px, contain;
     background-position: 150px 50px, 0px;
     background-attachment: fixed, local;
+    height: 100vh;
+    overflow: scroll;
+    
+    
 }
 .mainContainer {
     margin:0px auto;
@@ -19,6 +23,7 @@ body {
 img {
     height: 300px;
     width: 300px;
+    opacity: 0.6;
     transition-duration: 1.5s;
     transition-property: all;
 }
@@ -105,12 +110,11 @@ main {
     background-color: rgba(30, 31, 30, 0.581);
 }
 div:hover img {
-    width: 60%;
-    height: 450px;
+    width: 400px;
+    height: 350px;
+    opacity: 1;
 }
-div:hover li {
-    font-size: 30px;
-}
+
 a:hover {
     font-size: 30px;
     color: blue;

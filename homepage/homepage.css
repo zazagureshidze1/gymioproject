@@ -2,10 +2,10 @@
 body {
     
     background-image: url("../images/images/coverphoto.jpg"),
-    url("../images/images/background.jpg");
-    background-size: 400px 400px, cover;
+    url("../images/images/WhatsApp\ Image\ 2026-09-17\ at\ 03.04.36\ \(1\).jpeg");
+    background-size: 400px 400px, 1200px 1000px;
     background-repeat: no-repeat;    
-    background-position: 50px 0px, 0px 0px;
+    background-position: 50px 0px,center;
     background-attachment: fixed, local;
 }
 
@@ -39,14 +39,8 @@ p {
     padding: 20px;    
 }
 /* || main and  menu navigation */
-.menu {
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-   
-}
-.menu__list {
-    flex-basis: 750px;
+
+.menu__list {    
     display: flex;
     flex-direction: row;
     gap: 20px;
@@ -67,18 +61,12 @@ p {
 .menu__item a {
     transition: all 0.5s;        
 }
-.youtubesearch{
-    flex-grow: 1;
-}
-.youtubesearch label {
-    background-color: rgb(185, 36, 36); 
-    padding: 10px;   
-}
+
 main {
-    display:flex;    
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
+    display:flex; 
+    flex-direction: column;  
+    justify-content: space-between;    
+    align-items: flex-end;
 }
 
 .sidebar p {
