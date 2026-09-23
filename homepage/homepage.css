@@ -19,10 +19,10 @@ body {
 }
 h1 {
     font-size: 2.5em;
-    background-color: rgba(147, 65, 128, 0.588);
-    color: rgb(65, 93, 157);
+    background-color: rgba(65, 77, 147, 0.588);
+    color: rgb(56, 164, 183);
     padding: 10px;
-    border: 5px solid black;
+    border: 5px solid rgb(20, 9, 9);
     border-radius: 10px;
     text-align: center;
     width: 800px;
