@@ -1,9 +1,9 @@
 /* || genera styles */
 body {
     
-    background-image:url("../images/images/coverphoto.jpg"),
-    url("../images/images/WhatsApp\ Image\ 2026-09-17\ at\ 03.04.36\ \(1\).jpeg");
-    background-size: 400px 400px, 1200px 1000px; 
+    background-image:url("../images/images/WhatsApp\ Image\ 2026-09-17\ at\ 03.04.36.jpeg"),
+    url("../images/images/WhatsApp\ Image\ 2026-09-17\ at\ 03.04.37.jpeg");
+    background-size: 400px 400px, cover; 
     background-repeat: no-repeat;    
     background-position: 50px 0px,center;
     background-attachment: fixed, local;
