@@ -20,9 +20,9 @@ body {
 h1 {
     font-size: 2.5em;
     background-color: rgba(65, 77, 147, 0.588);
-    color: rgb(56, 164, 183);
+    color: rgb(56, 183, 79);
     padding: 10px;
-    border: 5px solid rgb(33, 108, 54);
+    border: 5px solid rgb(108, 33, 107);
     border-radius: 10px;
     text-align: center;
     width: 800px;
