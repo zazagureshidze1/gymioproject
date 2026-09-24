@@ -32,7 +32,7 @@ h1 {
 }
 p {
     font-size: 20px;
-    background-color: rgba(0, 255, 170, 0.591);
+    background-color: rgba(255, 0, 212, 0.591);
     color: rgb(88, 14, 32);
     border: 5px solid black;
     border-radius: 10px;
@@ -52,7 +52,7 @@ p {
 .menu__item {
     flex: 1;
     padding: 10px;
-    background-color: rgba(0, 255, 213, 0.446);
+    background-color: rgba(255, 0, 191, 0.446);
     border-radius: 5px;   
     text-align: center;
     
